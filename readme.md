@@ -28,10 +28,17 @@ git commit -m "描述"
 ```shell
 git branch
 ```
+
 5、创建分支
 ```shell
-git branch 分支名称
+git branch <分支名称>
 ```
+6、删除分支
+```shell
+git branch -D <name>
+```
+7、合并分支
 
-
-
+```
+git merge <otherBranch>
+```
