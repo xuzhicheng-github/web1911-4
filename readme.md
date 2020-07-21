@@ -6,7 +6,7 @@ ctrl + `（ESC下面的符号）
 
 ## 本地源代码管理
 
-1、生成一个git仓库
+1、生成一个git仓库（一个项目只生成一次）
 
 ```shell
 git init
@@ -24,5 +24,8 @@ git add <文件路径|文件夹路径>
 ```
 git commit -m "描述"
 ```
-
+4、创建分支
+```shell
+git checkout 分支名称
+```
 
