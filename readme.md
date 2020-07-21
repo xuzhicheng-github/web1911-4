@@ -20,9 +20,18 @@ git add <文件路径|文件夹路径>
 ```
 
 3、提交暂存（确认存储）
-
-```
+```shell
 git commit -m "描述"
 ```
+
+4、查看分支
+```shell
+git branch
+```
+5、创建分支
+```shell
+git branch 分支名称
+```
+
 
 
