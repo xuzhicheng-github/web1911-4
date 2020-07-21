@@ -37,8 +37,3 @@ git branch <分支名称>
 ```shell
 git branch -D <name>
 ```
-7、合并分支
-
-```
-git merge <otherBranch>
-```
