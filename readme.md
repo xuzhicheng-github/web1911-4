@@ -55,10 +55,12 @@ git remote remove <仓库名称>
 git push <仓库名称> <分支名称>
 
 11、绑定默认分支
+```shell
 第一次：
 git push -u <仓库名称> <分支名称>
 第二次以后
 git push 
+```
 
 12、克隆项目
 
@@ -83,7 +85,10 @@ git remote get-url remote
 7、同步远程仓库
 
 #拉取同步
+
+```shell
 git pull
+```
 
 8、下载分支
 
