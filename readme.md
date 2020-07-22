@@ -43,16 +43,23 @@ git branch -D <name>
 git merge <otherBranch>
 ```
 8、在本地添加一个远程仓库的地址
+
+```shell
 git remote add <仓库名称> <仓库地址>
 
 git remote add github https://xxx.git
+```
 
 9、删除远程仓库
+```shell
 git remote remove <仓库名称>
+```
 
 10、上传代码到远程仓库
 
+```shell
 git push <仓库名称> <分支名称>
+```
 
 11、绑定默认分支
 ```shell
